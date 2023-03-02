@@ -96,14 +96,15 @@ main {
 
 #marshall{
     text-align: center;
-     width: 100%;
-     height: 380px;
-     background-image: url(assets/marshall.png);
-     background-position: center center; 
-     background-size: cover; 
-     margin-top: 30px;
-     margin-left: 0;
- }
+    width: 100%;
+    height: 380px;
+    background-image: url(assets/marshall.png);
+    background-position: center center; 
+    background-size: cover; 
+    margin-top: 30px;
+    margin-left: 0;
+    
+}
 
  #greybottom {
     background-color: #354758;
