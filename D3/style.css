@@ -77,6 +77,11 @@ main {
     box-shadow:rgba(34, 70, 136, 0.53) 10px 10px 5px;
 }
 
+.left{
+    text-align: left;
+    padding: 10px 10px;
+}
+
 #oculus{
    text-align: center;
     width: 100%;
