@@ -37,6 +37,7 @@ main {
 
 .tuttilink a:-webkit-any-link {
     color: white;
+    text-decoration: none;
 }
 
 .shopguide a:-webkit-any-link {
