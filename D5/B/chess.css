@@ -1,0 +1,51 @@
+.maxicontainer {
+  width: 720px;
+  margin: 60px 60px;
+}
+.container {
+    margin-left: 4rem;
+    margin-top: 4rem;
+    position: relative;
+    margin-top: 0;
+    font-size: 0;
+  }
+  .container div {
+    width: 80px;
+    height: 80px;
+    border: 1px solid black;
+    display: inline-block;
+    position: relative;
+    margin:0;
+    font-size:1rem;
+  }
+
+span {
+  position: absolute;
+}
+
+.container div:first-child>span:first-child {
+  left:-20px;
+  top: 25px;
+}
+
+.container div:first-child>span:nth-child(2) {
+  left: 33px;;
+  top: -20px;
+}
+
+
+.container:first-child>div:nth-child(1n+2)>span:first-child {
+  left: 33px;
+  top: -20px;
+}
+
+
+.container:nth-child(even)>div:nth-child(odd) {
+  background-color: black;
+}
+
+.container:nth-child(odd)>div:nth-child(even) {
+  background-color: black;
+}
+
+
