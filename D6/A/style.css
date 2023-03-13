@@ -1,0 +1,121 @@
+body {
+    font-family: helvetica;
+}
+
+.container {
+    width: 500px;
+    height: 700px;
+    position: relative;
+    border-radius: 20px;
+    display: inline-block;
+    overflow: hidden;
+
+
+}
+
+.casaimg {
+    width: 500px;
+    height: 700px;
+    object-fit: cover;
+    z-index: 10;
+    position: absolute;
+    border-radius: 20px;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: black;
+    opacity: 0.5;
+    z-index: 1; 
+}
+
+
+
+.save {
+    position: absolute;
+    width: 120px;
+    height: 80px;
+    top: 25px;
+    right: 25px;
+    background-color: red;
+    z-index: 1;
+    border-radius: 50px;
+    color: white;
+}
+
+.txtsave {
+    text-align: center center;
+    position: absolute;
+    font-size: large;
+    font-size: 25px;
+    left: 30px;
+    top: 30px;
+}
+
+.bigbutton {
+    display: inline-block;
+    position: absolute;
+    width: 300px;
+    height: 50px;
+    border-radius: 50px;
+    background-color: lightgray;
+    opacity: 0.8;
+    bottom: 25px;
+    left: 25px;
+   
+}
+
+.smallbutton {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: lightgray;
+    opacity: 0.8;
+    right: 95px;
+    bottom: 25px;
+    overflow: hidden;
+    color: black;
+    
+}
+
+.smallbutton2 {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: lightgray;
+    opacity: 0.8;
+    right: 25px;
+    bottom: 25px;
+    overflow: hidden;
+    color: black;
+}
+
+.icona2 {
+    position: absolute;
+    scale: 2.5;
+    object-fit: cover;
+    top: 17px;
+    left: 17px;
+
+}
+
+.icona3 {
+    position: absolute;
+    scale: 4.5;
+    object-fit: cover;
+    top: 17px;
+    left: 17px;
+
+}
+
+
+
+.container:hover>.hidden {
+    z-index: 1000;
+}
